@@ -1,0 +1,15 @@
+# truffle
+build
+
+# typechain
+types
+
+# buidler
+artifacts
+cache
+
+/node_modules
+
+.vscode
+
+.env

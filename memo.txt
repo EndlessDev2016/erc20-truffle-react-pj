@@ -1,0 +1,39 @@
+■truffle memo
+npm i -g truffle
+
+truffle unbox react
+
+truffle development
+
+truffle migrate
+
+ganache-cli --networkId 1337 --chainId 1337 -p 7545
+
+■ migrate
+truffle migrate --network develop --reset
+truffle migrate --network ganache_local --reset
+
+■ testnet migrate
+truffle migrate --network rinkeby_infura
+truffle migrate --network goerli_infura
+truffle migrate --network ropsten_infura
+
+
+0X35BE0EBD8DAA7EE0F858668D6E747AB0E81CB62C
+0x35BE0EBD8DAA7EE0F858668D6E747AB0E81CB62C
+
+
+0XB1551F3AFE792939A37016F66096017E09F31A7F
+0XB1551F3AFE792939A37016F66096017E09F31A7F
+
+■web3 memo
+web3.eth.getBalance(accounts[0])
+web3.eth.sendTransaction({ from: accounts[0], to:"0x35bE0EBd8dAa7Ee0f858668D6e747AB0e81Cb62C", value: web3.utils.toWei("10","ether")})
+web3.eth.sendTransaction({ from: accounts[0], to:"0x6d6d239D0BbFd9dc56379B9c3cCEA6f4B456728e", value: web3.utils.toWei("1","ether")})
+
+web3.eth.sendTransaction({ from: accounts[0], to:"0x35bE0EBd8dAa7Ee0f858668D6e747AB0e81Cb62C", value: web3.utils.toWei("1","ether")})
+web3.eth.sendTransaction({ from: accounts[1], to:"0x35bE0EBd8dAa7Ee0f858668D6e747AB0e81Cb62C", value: web3.utils.toWei("1","ether")})
+
+
+0xb1551f3AFE792939a37016F66096017e09f31A7f
+0xb1551f3AFE792939a37016F66096017e09f31A7f
